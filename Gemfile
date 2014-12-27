@@ -41,3 +41,5 @@ gem 'foreman'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'cowsay'
+
+gem 'rails_12factor', group: :production
