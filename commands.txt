@@ -1,0 +1,1 @@
+rails generate scaffold Employee name:string gender:string employee_id:integer company_id:integer current_balance:decimal current_pay:decimal date_of_hire:date date_of_birth:date
