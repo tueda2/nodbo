@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: nodbo_prd_db
-  username: postgres
-  password: Nep9COZFGqh
+  database: dv65gtm1fo04f
+  username: btcrhmvuyrpjzg
+  password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
