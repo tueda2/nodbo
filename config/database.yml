@@ -77,12 +77,12 @@ test:
 #
 # You can use this database configuration with:
 #
-   production:
-     <<: *default
-     url: <%= ENV['DATABASE_URL'] %>
+#   production:
+#    <<: *default
+#    url: <%= ENV['DATABASE_URL'] %>
 #
-#production:
-#  <<: *default
-#  database: dv65gtm1fo04f
-#  username: btcrhmvuyrpjzg
-#  password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
+production:
+  <<: *default
+  database: dv65gtm1fo04f
+  username: btcrhmvuyrpjzg
+  password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
