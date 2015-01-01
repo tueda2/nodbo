@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'main_pages/index'
+
+  get 'main_pages/help'
+
   resources :employees
 
   # The priority is based upon order of creation: first created -> highest priority.
